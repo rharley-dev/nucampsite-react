@@ -29,10 +29,10 @@ class CampsiteInfo extends Component {
                 <div className='col-md-5 m-1'>
                     <h4>Comments</h4>
                     <div>
-                        {comments.map(comment => 
-                            <div key={comment.id}>
-                                {comment.text}
-                                <div key={comment.id}>{comment.author} -- {new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: '2-digit'}).format(new Date(Date.parse(comment.date)))}</div>
+                        {comments.map(c => 
+                            <div key={c.id}>
+                                {c.text}
+                                <div key={c.id}>{c.author} -- {new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: '2-digit'}).format(new Date(Date.parse(c.date)))}</div>
                                 <br></br>
                             </div>
                         )}
