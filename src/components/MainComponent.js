@@ -19,7 +19,7 @@ class Main extends Component {
       campsites: CAMPSITES,
       comments: COMMENTS,
       partners: PARTNERS,
-      promotions: PROMOTIONS,
+      promotions: PROMOTIONS
     };
   }
 
