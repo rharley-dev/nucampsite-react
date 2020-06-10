@@ -2,14 +2,11 @@ import React from 'react';
 import {
   Card,
   CardImg,
-  CardImgOverlay,
   CardText,
   CardBody,
-  CardTitle,
   Breadcrumb,
   BreadcrumbItem,
 } from 'reactstrap';
-import { CAMPSITES } from '../shared/campsites';
 import { Link } from 'react-router-dom';
 
 function RenderCampsite({ campsite }) {
