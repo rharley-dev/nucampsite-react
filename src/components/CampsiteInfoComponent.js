@@ -41,7 +41,7 @@ class CommentForm extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  // using arrow function instead of bind
+  // using arrow function instead of needing .bind(this)
   toggleModal = () => {
     this.setState(prevState => ({ isModalOpen: !prevState.isModalOpen }));
   };
